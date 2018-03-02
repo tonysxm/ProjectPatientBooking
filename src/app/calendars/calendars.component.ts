@@ -1,7 +1,18 @@
 import { Component, OnInit } from '@angular/core';
+
+import { AngularFirestore } from 'angularfire2/firestore';
+import { AngularFireDatabase } from 'angularfire2/database';
+import { AngularFireAuth } from 'angularfire2/auth';
+import { Observable } from 'rxjs/Observable';
+import * as firebase from 'firebase/app';
+
 declare interface TableData {
     headerRow: string[];
     dataRows: string[][];
+}
+
+class Calendar {
+    constructor(public name) { }
 }
 
 @Component({
@@ -11,8 +22,14 @@ declare interface TableData {
 })
 export class CalendarsComponent implements OnInit {
   public tableData1: TableData;
+    user: Observable<firebase.User>;
+    calendars: Observable<any[]>;
 
-  constructor() { }
+    constructor(public afAuth: AngularFireAuth, db: AngularFirestore) {
+        this.afAuth.auth.signInAnonymously();
+        this.user = this.afAuth.authState;
+        this.calendars = db.collection('calendars').valueChanges();
+    }
 
   ngOnInit() {
       this.tableData1 = {

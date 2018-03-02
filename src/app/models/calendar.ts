@@ -1,4 +1,4 @@
-export interface CalendarModel {
+export class CalendarModel {
     name;
     year;
     isActive;

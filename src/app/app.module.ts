@@ -16,11 +16,15 @@ import { TypographyComponent }   from './typography/typography.component';
 import { IconsComponent }   from './icons/icons.component';
 import { MapsComponent }   from './maps/maps.component';
 import { NotificationsComponent }   from './notifications/notifications.component';
-import {AuthService} from "./service/auth.service";
-import {CallbackComponent} from "./callback/callback.component";
+import {AuthService} from './service/auth.service';
+import {CallbackComponent} from './callback/callback.component';
 import { CalendarsComponent } from './calendars/calendars.component';
 import { BookingsComponent } from './bookings/bookings.component';
 import { SettingsComponent } from './settings/settings.component';
+import {AngularFireModule} from 'angularfire2';
+import {AngularFirestoreModule} from 'angularfire2/firestore';
+import {FIRE_BASE_CREDENTIALS} from './firebase.credentials';
+import {AngularFireAuth} from "angularfire2/auth";
 
 @NgModule({
   declarations: [
@@ -43,10 +47,12 @@ import { SettingsComponent } from './settings/settings.component';
     SidebarModule,
     NavbarModule,
     FooterModule,
-    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=YOUR_KEY_HERE'})
+    NguiMapModule.forRoot({apiUrl: 'https://maps.google.com/maps/api/js?key=YOUR_KEY_HERE'}),
+      AngularFireModule.initializeApp(FIRE_BASE_CREDENTIALS),
+      AngularFirestoreModule.enablePersistence(),
 
   ],
-  providers: [AuthService],
+  providers: [AuthService, AngularFireAuth],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
