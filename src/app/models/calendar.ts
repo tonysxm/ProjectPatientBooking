@@ -1,5 +1,6 @@
 export class CalendarModel {
-    name;
-    year;
-    isActive;
+    id?: number;
+    name: string;
+    location: string;
+    dateCreated: any;
 }

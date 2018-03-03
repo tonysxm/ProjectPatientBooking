@@ -1,6 +1,6 @@
 <div class="container-fluid">
   <div>
-    <button class="btn btn-primary btn-margin">Add Calendar</button>
+    <button (click)="addCalendar()" class="btn btn-primary btn-margin">Add Calendar</button>
   </div>
   <br>
   <div class="row">
@@ -14,16 +14,16 @@
               <th>Name</th>
               <th>Location</th>
               <th>Date created</th>
-              <th>Actions</th>
+              <th></th>
             </tr>
             </thead>
             <tbody>
-            <tr *ngFor="let calendar of calendars | async">
+            <tr *ngFor="let calendar of calendars$ | async">
               <td>{{calendar.id}}</td>
               <td>{{calendar.name}}</td>
               <td>{{calendar.location}}</td>
               <td>{{calendar.dateCreated | date:'dd-MM-yyyy'}}</td>
-              <td>Actions</td>
+              <td><button class="btn btn-block btn-success">Edit</button></td>
             </tr>
             </tbody>
           </table>

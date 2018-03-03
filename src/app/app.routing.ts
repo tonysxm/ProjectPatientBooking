@@ -7,10 +7,11 @@ import { TypographyComponent } from './typography/typography.component';
 import { IconsComponent } from './icons/icons.component';
 import { MapsComponent } from './maps/maps.component';
 import { NotificationsComponent } from './notifications/notifications.component';
-import {CallbackComponent} from "./callback/callback.component";
-import {CalendarsComponent} from "./calendars/calendars.component";
-import {BookingsComponent} from "./bookings/bookings.component";
-import {SettingsComponent} from "./settings/settings.component";
+import {CallbackComponent} from './callback/callback.component';
+import {CalendarsComponent} from './calendars/calendars.component';
+import {BookingsComponent} from './bookings/bookings.component';
+import {SettingsComponent} from './settings/settings.component';
+import {AddCalendarComponent} from './add-calendar/add-calendar.component';
 
 export const AppRoutes: Routes = [
     {
@@ -55,6 +56,10 @@ export const AppRoutes: Routes = [
         component: CalendarsComponent
     },
     {
+        path: 'add-calendar',
+        component: AddCalendarComponent
+    },
+    {
         path: 'bookings',
         component: BookingsComponent
     },
@@ -62,4 +67,4 @@ export const AppRoutes: Routes = [
         path: 'settings',
         component: SettingsComponent
     }
-]
+];
