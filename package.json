@@ -23,7 +23,7 @@
     "@angular/router": "4.4.4",
     "@ngui/map": "0.18.3",
     "@types/googlemaps": "3.26.14",
-    "angularfire2": "^5.0.0-rc.6",
+    "angularfire2": "^5.0.0-rc.3",
     "arrive": "2.3.1",
     "auth0-js": "^9.3.1",
     "bootstrap": "3.3.5",

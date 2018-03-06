@@ -6,6 +6,7 @@ import { Observable } from 'rxjs/Observable';
 import * as firebase from 'firebase/app';
 import {Router} from '@angular/router';
 import {CalendarModel} from '../models/calendar';
+import {AuthService} from "../service/auth.service";
 
 @Component({
   selector: 'app-calendars',
@@ -17,7 +18,10 @@ export class CalendarsComponent implements OnInit {
     calendarCollectionRef: AngularFirestoreCollection<CalendarModel>;
     public calendars$: Observable<{}[]>;
 
-    constructor(public afAuth: AngularFireAuth, afs: AngularFirestore, private router: Router) {
+    constructor(public afAuth: AngularFireAuth, afs: AngularFirestore, private router: Router, private auth: AuthService) {
+        if (!auth.isAuthenticated()) {
+            auth.login();
+        }
         this.afAuth.auth.signInAnonymously();
         this.user = this.afAuth.authState;
         this.calendarCollectionRef = afs.collection<CalendarModel>('calendars');
@@ -28,19 +32,18 @@ export class CalendarsComponent implements OnInit {
                 return { id, ...data };
             });
         });
-        this.calendars$;
     }
 
     public addCalendar() {
-        this.router.navigateByUrl('add-calendar');
+        this.router.navigate(['add-calendar']);
     }
 
-    updateCalendar(calendarModel: CalendarModel) {
-        // this.calendarCollectionRef.doc(calendarModel.id).update({ completed: !calendarModel.name });
+    public editCalander(calendarId: number) {
+       this.router.navigate(['edit-calendar', { id: calendarId}]);
     }
 
-    deleteCalendar(calendarModel: CalendarModel) {
-        // this.calendarCollectionRef.doc(calendarModel.id).delete();
+    deleteCalendar(calendarId: string) {
+        this.calendarCollectionRef.doc(calendarId).delete();
     }
 
   ngOnInit() {

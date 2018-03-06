@@ -2,704 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7efff4e7-d7c9-4fbd-9cdb-4a0bcb64e405" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/.editorconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/accordion.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/api.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/autocomplete.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/blockui.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/blockui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/breadcrumb.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/breadcrumb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/button.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/calendar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/captcha.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/captcha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/card.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/card.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/carousel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/chart.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/checkbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/chips.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/chips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/codehighlighter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/codehighlighter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/colorpicker.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/accordion/accordion.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/accordion/accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/accordion/accordion.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/accordion/accordion.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/autocomplete/autocomplete.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/autocomplete/autocomplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/autocomplete/autocomplete.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/autocomplete/autocomplete.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/blockui/blockui.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/blockui/blockui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/blockui/blockui.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/blockui/blockui.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/breadcrumb/breadcrumb.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/breadcrumb/breadcrumb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/breadcrumb/breadcrumb.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/breadcrumb/breadcrumb.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/button/button.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/button/button.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/button/button.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/button/button.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/calendar/calendar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/calendar/calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/calendar/calendar.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/calendar/calendar.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/captcha/captcha.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/captcha/captcha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/captcha/captcha.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/captcha/captcha.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/card/card.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/card/card.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/card/card.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/card/card.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/carousel/carousel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/carousel/carousel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/carousel/carousel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/carousel/carousel.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chart/chart.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chart/chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chart/chart.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chart/chart.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/checkbox/checkbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/checkbox/checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/checkbox/checkbox.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/checkbox/checkbox.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chips/chips.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chips/chips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chips/chips.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/chips/chips.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/codehighlighter/codehighlighter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/codehighlighter/codehighlighter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/codehighlighter/codehighlighter.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/codehighlighter/codehighlighter.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/colorpicker/colorpicker.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/colorpicker/colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/colorpicker/colorpicker.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/colorpicker/colorpicker.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/api.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/api.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/api.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/api.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/blockableui.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/blockableui.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/blockableui.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/blockableui.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmation.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmation.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmation.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmationservice.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmationservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmationservice.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/confirmationservice.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/filtermetadata.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/filtermetadata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/filtermetadata.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/filtermetadata.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/lazyloadevent.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/lazyloadevent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/lazyloadevent.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/lazyloadevent.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/menuitem.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/menuitem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/menuitem.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/menuitem.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/message.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/message.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/message.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/messageservice.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/messageservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/messageservice.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/messageservice.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitem.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitem.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitem.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitemgroup.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitemgroup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitemgroup.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/selectitemgroup.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/shared.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/shared.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/shared.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/shared.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortevent.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortevent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortevent.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortevent.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortmeta.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortmeta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortmeta.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/sortmeta.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treedragdropservice.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treedragdropservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treedragdropservice.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treedragdropservice.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenode.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenode.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenode.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenodedragevent.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenodedragevent.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenodedragevent.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/common/treenodedragevent.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/confirmdialog/confirmdialog.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/confirmdialog/confirmdialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/confirmdialog/confirmdialog.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/confirmdialog/confirmdialog.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/contextmenu/contextmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/contextmenu/contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/contextmenu/contextmenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/contextmenu/contextmenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datagrid/datagrid.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datagrid/datagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datagrid/datagrid.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datagrid/datagrid.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datalist/datalist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datalist/datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datalist/datalist.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datalist/datalist.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datascroller/datascroller.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datascroller/datascroller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datascroller/datascroller.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datascroller/datascroller.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datatable/datatable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datatable/datatable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datatable/datatable.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/datatable/datatable.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/defer/defer.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/defer/defer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/defer/defer.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/defer/defer.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dialog/dialog.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dialog/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dialog/dialog.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dialog/dialog.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dom/domhandler.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dom/domhandler.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dom/domhandler.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dom/domhandler.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dragdrop/dragdrop.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dragdrop/dragdrop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dragdrop/dragdrop.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dragdrop/dragdrop.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dropdown/dropdown.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dropdown/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dropdown/dropdown.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/dropdown/dropdown.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/editor/editor.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/editor/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/editor/editor.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/editor/editor.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fieldset/fieldset.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fieldset/fieldset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fieldset/fieldset.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fieldset/fieldset.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fileupload/fileupload.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fileupload/fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fileupload/fileupload.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/fileupload/fileupload.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/galleria/galleria.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/galleria/galleria.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/galleria/galleria.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/galleria/galleria.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/gmap/gmap.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/gmap/gmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/gmap/gmap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/gmap/gmap.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/growl/growl.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/growl/growl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/growl/growl.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/growl/growl.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inplace/inplace.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inplace/inplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inplace/inplace.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inplace/inplace.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputmask/inputmask.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputmask/inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputmask/inputmask.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputmask/inputmask.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputswitch/inputswitch.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputswitch/inputswitch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputswitch/inputswitch.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputswitch/inputswitch.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtext/inputtext.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtext/inputtext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtext/inputtext.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtext/inputtext.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtextarea/inputtextarea.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtextarea/inputtextarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtextarea/inputtextarea.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/inputtextarea/inputtextarea.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/keyfilter/keyfilter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/keyfilter/keyfilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/keyfilter/keyfilter.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/keyfilter/keyfilter.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/lightbox/lightbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/lightbox/lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/lightbox/lightbox.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/lightbox/lightbox.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/listbox/listbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/listbox/listbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/listbox/listbox.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/listbox/listbox.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/megamenu/megamenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/megamenu/megamenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/megamenu/megamenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/megamenu/megamenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menu/menu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menu/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menu/menu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menu/menu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menubar/menubar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menubar/menubar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menubar/menubar.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/menubar/menubar.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/message/message.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/message/message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/message/message.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/message/message.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/messages/messages.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/messages/messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/messages/messages.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/messages/messages.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/multiselect/multiselect.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/multiselect/multiselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/multiselect/multiselect.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/multiselect/multiselect.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/orderlist/orderlist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/orderlist/orderlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/orderlist/orderlist.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/orderlist/orderlist.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/organizationchart/organizationchart.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/organizationchart/organizationchart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/organizationchart/organizationchart.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/organizationchart/organizationchart.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/overlaypanel/overlaypanel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/overlaypanel/overlaypanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/overlaypanel/overlaypanel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/overlaypanel/overlaypanel.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/paginator/paginator.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/paginator/paginator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/paginator/paginator.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/paginator/paginator.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panel/panel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panel/panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panel/panel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panel/panel.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panelmenu/panelmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panelmenu/panelmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panelmenu/panelmenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/panelmenu/panelmenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/password/password.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/password/password.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/password/password.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/password/password.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/picklist/picklist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/picklist/picklist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/picklist/picklist.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/picklist/picklist.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressbar/progressbar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressbar/progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressbar/progressbar.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressbar/progressbar.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressspinner/progressspinner.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressspinner/progressspinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressspinner/progressspinner.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/progressspinner/progressspinner.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/radiobutton/radiobutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/radiobutton/radiobutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/radiobutton/radiobutton.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/radiobutton/radiobutton.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/rating/rating.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/rating/rating.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/rating/rating.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/rating/rating.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/schedule/schedule.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/schedule/schedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/schedule/schedule.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/schedule/schedule.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/scrollpanel/scrollpanel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/scrollpanel/scrollpanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/scrollpanel/scrollpanel.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/scrollpanel/scrollpanel.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/selectbutton/selectbutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/selectbutton/selectbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/selectbutton/selectbutton.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/selectbutton/selectbutton.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/sidebar/sidebar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/sidebar/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/sidebar/sidebar.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/sidebar/sidebar.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slidemenu/slidemenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slidemenu/slidemenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slidemenu/slidemenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slidemenu/slidemenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slider/slider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slider/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slider/slider.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/slider/slider.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/spinner/spinner.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/spinner/spinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/spinner/spinner.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/spinner/spinner.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/splitbutton/splitbutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/splitbutton/splitbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/splitbutton/splitbutton.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/splitbutton/splitbutton.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/steps/steps.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/steps/steps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/steps/steps.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/steps/steps.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/table/table.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/table/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/table/table.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/table/table.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabmenu/tabmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabmenu/tabmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabmenu/tabmenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabmenu/tabmenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabview/tabview.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabview/tabview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabview/tabview.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tabview/tabview.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminal.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminal.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminal.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminalservice.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminalservice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminalservice.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/terminal/terminalservice.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tieredmenu/tieredmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tieredmenu/tieredmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tieredmenu/tieredmenu.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tieredmenu/tieredmenu.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/togglebutton/togglebutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/togglebutton/togglebutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/togglebutton/togglebutton.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/togglebutton/togglebutton.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/toolbar/toolbar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/toolbar/toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/toolbar/toolbar.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/toolbar/toolbar.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tooltip/tooltip.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tooltip/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tooltip/tooltip.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tooltip/tooltip.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tree/tree.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tree/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tree/tree.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tree/tree.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/treetable/treetable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/treetable/treetable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/treetable/treetable.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/treetable/treetable.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tristatecheckbox/tristatecheckbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tristatecheckbox/tristatecheckbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tristatecheckbox/tristatecheckbox.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/tristatecheckbox/tristatecheckbox.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/utils/objectutils.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/utils/objectutils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/utils/objectutils.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/components/utils/objectutils.metadata.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/confirmdialog.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/confirmdialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/contextmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/contextmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datagrid.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datagrid.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datalist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datalist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datascroller.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datascroller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datatable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/datatable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/defer.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/defer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dialog.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dragdrop.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dragdrop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dropdown.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/dropdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/editor.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/fieldset.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/fieldset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/fileupload.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/fileupload.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/galleria.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/galleria.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/gmap.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/gmap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/growl.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/growl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inplace.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inplace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputmask.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputswitch.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputswitch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputtext.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputtext.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputtextarea.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/inputtextarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/keyfilter.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/keyfilter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/lightbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/listbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/listbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/megamenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/megamenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/menu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/menubar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/menubar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/message.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/messages.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/messages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/multiselect.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/multiselect.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/orderlist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/orderlist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/organizationchart.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/organizationchart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/overlaypanel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/overlaypanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/paginator.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/paginator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/panel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/panel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/panelmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/panelmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/password.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/password.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/picklist.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/picklist.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/primeng.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/primeng.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/progressbar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/progressbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/progressspinner.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/progressspinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/radiobutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/radiobutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/rating.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/rating.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/accordion/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/autocomplete/autocomplete.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/blockui/blockui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/breadcrumb/breadcrumb.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/button/button.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/calendar/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/card/card.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/carousel/carousel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/checkbox/checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/chips/chips.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/colorpicker/colorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/common/common.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/contextmenu/contextmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/datagrid/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/datalist/datalist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/datascroller/datascroller.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/datatable/datatable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/dialog/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/dropdown/dropdown.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/fieldset/fieldset.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/fileupload/fileupload.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/galleria/galleria.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/grid/grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/growl/growl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/inplace/inplace.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/inputswitch/inputswitch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/inputtext/inputtext.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/inputtextarea/inputtextarea.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/lightbox/lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/listbox/listbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/megamenu/megamenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/menu/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/menubar/menubar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/message/message.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/messages/messages.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/multiselect/multiselect.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/orderlist/orderlist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/organizationchart/organizationchart.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/overlaypanel/overlaypanel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/paginator/paginator.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/panel/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/panelmenu/panelmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/password/password.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/picklist/picklist.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/progressbar/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/progressspinner/progressspinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/radiobutton/radiobutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/schedule/schedule.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/scrollpanel/scrollpanel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/selectbutton/selectbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/sidebar/sidebar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/slidemenu/slidemenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/slider/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/spinner/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/splitbutton/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/steps/steps.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/table/table.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/tabmenu/tabmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/tabview/tabview.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/terminal/terminal.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/tieredmenu/tieredmenu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/toolbar/toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/tooltip/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/tree/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/components/treetable/treetable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/images/color.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/images/hue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/images/line.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/images/password-meter.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/primeng.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/primeng.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/_theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/bootstrap/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cruze/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cruze/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cruze/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cupertino/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cupertino/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/cupertino/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/darkness/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/darkness/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/darkness/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/flick/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/flick/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/flick/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/home/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/home/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/home/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/kasper/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/kasper/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/kasper/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/lightness/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/lightness/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/lightness/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/ludvig/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/ludvig/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/ludvig/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/fonts/roboto-v15-latin-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/fonts/roboto-v15-latin-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/fonts/roboto-v15-latin-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/fonts/roboto-v15-latin-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/fonts/roboto-v15-latin-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/icons_16.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/slider_handles.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/slider_handles@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/omega/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/pepper-grinder/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/pepper-grinder/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/pepper-grinder/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/redmond/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/redmond/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/redmond/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/rocket/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/rocket/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/rocket/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/south-street/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/south-street/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/south-street/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/start/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/start/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/start/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/trontastic/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/trontastic/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/trontastic/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/voclain/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/voclain/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/resources/themes/voclain/theme.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/schedule.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/schedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/scrollpanel.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/scrollpanel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/selectbutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/selectbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/shared.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/shared.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/sidebar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/sidebar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/slidemenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/slidemenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/slider.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/spinner.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/spinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/splitbutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/splitbutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/steps.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/steps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/table.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tabmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tabmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tabview.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tabview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/terminal.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/terminal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tieredmenu.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tieredmenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/togglebutton.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/togglebutton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/toolbar.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/toolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tooltip.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tooltip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tree.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tree.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/treetable.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/treetable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tristatecheckbox.d.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/primeng/tristatecheckbox.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts" afterPath="$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.routing.ts" afterPath="$PROJECT_DIR$/src/app/app.routing.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/bookings/bookings.component.ts" afterPath="$PROJECT_DIR$/src/app/bookings/bookings.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/calendars/calendars.component.html" afterPath="$PROJECT_DIR$/src/app/calendars/calendars.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/calendars/calendars.component.ts" afterPath="$PROJECT_DIR$/src/app/calendars/calendars.component.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/models/calendar.ts" afterPath="$PROJECT_DIR$/src/app/models/calendar.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" afterPath="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -713,12 +24,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="add-calendar.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="calendars.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            <state relative-caret-position="207">
+              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="45" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -726,23 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="protractor.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protractor.conf.js">
+      <file leaf-file-name="calendars.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -751,50 +50,28 @@
       <file leaf-file-name="calendar.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/models/calendar.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calendars.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-calendar.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="add-calendar.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.css">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bookingslot.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/bookingslot.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit-calendar.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -805,18 +82,28 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add-calendar.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paper-dashboard.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assets/css/paper-dashboard.css">
+      <file leaf-file-name="booking.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/models/booking.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="1156" column="27" lean-forward="false" selection-start-line="1156" selection-start-column="21" selection-end-line="1156" selection-end-column="27" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -858,27 +145,33 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/shared/navbar/navbar.component.html" />
         <option value="$PROJECT_DIR$/src/app/callback/callback.html" />
-        <option value="$PROJECT_DIR$/src/app/shared/navbar/navbar.component.ts" />
         <option value="$PROJECT_DIR$/src/assets/sass/paper/_sidebar-and-main-panel.scss" />
         <option value="$PROJECT_DIR$/src/assets/sass/paper/_variables.scss" />
         <option value="$PROJECT_DIR$/src/assets/css/paper-dashboard.css" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/service/auth.service.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/dashboard/dashboard.component.html" />
-        <option value="$PROJECT_DIR$/src/app/dashboard/dashboard.component.ts" />
         <option value="$PROJECT_DIR$/src/app/service/calendar/calendar.service.ts" />
         <option value="$PROJECT_DIR$/src/app/table/table.component.ts" />
         <option value="$PROJECT_DIR$/src/app/firebase.credentials.ts" />
-        <option value="$PROJECT_DIR$/src/app/calendars/calendars.component.html" />
-        <option value="$PROJECT_DIR$/src/app/app.routing.ts" />
-        <option value="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/models/calendar.ts" />
         <option value="$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.html" />
-        <option value="$PROJECT_DIR$/src/app/calendars/calendars.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/dashboard/dashboard.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/bookings/bookings.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/shared/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/calendars/calendars.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/calendars/calendars.component.html" />
+        <option value="$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/models/booking.ts" />
+        <option value="$PROJECT_DIR$/src/app/models/bookingslot.ts" />
+        <option value="$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.html" />
       </list>
     </option>
   </component>
@@ -893,8 +186,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1440" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="718" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -913,6 +206,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -920,12 +215,76 @@
               <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="add-calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="calendars" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="edit-calendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="notifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="sidebar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProjectPatientBooking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjectPatientBooking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -969,47 +328,56 @@
       <option name="presentableId" value="Default" />
       <updated>1519974188717</updated>
       <workItem from="1519974190726" duration="5624000" />
+      <workItem from="1520278863490" duration="5574000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21396000" />
+    <option name="totallyTimeSpent" value="41573000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4897219" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31197098" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31197098" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992327" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31197098" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1022,8 +390,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/app/app.module.ts</url>
-          <line>58</line>
-          <properties />
+          <line>60</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -1032,153 +399,79 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/shared/fixedplugin/fixedplugin.component.html" />
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/models/config.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/paper/_variables.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/user/user.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" lean-forward="false" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="183">
+          <caret line="191" column="18" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="191" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/paper/_sidebar-and-main-panel.scss">
+    <entry file="file://$PROJECT_DIR$/src/assets/css/paper-dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="145" column="34" lean-forward="false" selection-start-line="145" selection-start-column="29" selection-end-line="145" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="156">
+          <caret line="1156" column="27" lean-forward="false" selection-start-line="1156" selection-start-column="21" selection-end-line="1156" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation/tutorial-components.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="137" column="36" lean-forward="false" selection-start-line="137" selection-start-column="36" selection-end-line="137" selection-end-column="36" />
-          <folding />
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/paper-dashboard.scss">
+    <entry file="file://$PROJECT_DIR$/protractor.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/sass/paper/_responsive.scss">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/=5.0.0" />
+    <entry file="file://$PROJECT_DIR$/=5.0." />
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/fixedplugin/fixedplugin.module.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/upgrade/upgrade.component.ts" />
-    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="15" lean-forward="false" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/config/config.json">
+    <entry file="file://$PROJECT_DIR$/src/app/shared/navbar/navbar.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/calendar/calendar.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="43" lean-forward="true" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/config/config.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/config/config.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/service/calendar/calendar.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/shared/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
-          <caret line="37" column="62" lean-forward="true" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="62" />
-          <folding />
+          <caret line="37" column="62" lean-forward="false" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/table/table.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/table/table.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/firebase.credentials.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="243">
+          <caret line="60" column="8" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1190,110 +483,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/service/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#43#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <marker date="1520103508801" expanded="true" signature="1343:1475" ph="..." />
+            <marker date="1520103508801" expanded="true" signature="1358:1467" ph="..." />
+            <marker date="1520103508801" expanded="true" signature="1397:1451" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/lifecycle_hooks.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="48" column="17" lean-forward="false" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="33" lean-forward="false" selection-start-line="0" selection-start-column="33" selection-end-line="0" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="16" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/bookings/bookings.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/user/user.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/sidebar/sidebar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-376">
-          <caret line="1" column="19" lean-forward="true" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/shared/navbar/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-281">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="-285">
+          <caret line="21" column="122" lean-forward="false" selection-start-line="21" selection-start-column="122" selection-end-line="21" selection-end-column="122" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/shared/navbar/navbar.module.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/bookings/bookings.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/bookings/bookings.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/firestore/firestore.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="78" lean-forward="false" selection-start-line="13" selection-start-column="52" selection-end-line="13" selection-end-column="78" />
-          <folding />
+        <state relative-caret-position="120">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/firestore/collection/collection.d.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/Observable.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/models/config.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="50" lean-forward="false" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="214">
+          <caret line="73" column="2" lean-forward="false" selection-start-line="73" selection-start-column="2" selection-end-line="73" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.routing.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="54" column="24" lean-forward="false" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
+        <state relative-caret-position="365">
+          <caret line="64" column="28" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/user/user.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="191" column="18" lean-forward="true" selection-start-line="99" selection-start-column="11" selection-end-line="191" selection-end-column="18" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/paper-dashboard.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/rxjs/src/operator/map.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1156" column="27" lean-forward="false" selection-start-line="1156" selection-start-column="21" selection-end-line="1156" selection-end-column="27" />
+        <state relative-caret-position="214">
+          <caret line="37" column="16" lean-forward="false" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/firebase/app/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16815">
+          <caret line="1121" column="15" lean-forward="false" selection-start-line="1121" selection-start-column="15" selection-end-line="1121" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="108" column="4" lean-forward="false" selection-start-line="108" selection-start-column="4" selection-end-line="108" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/firestore/document/document.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/router/src/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85">
+          <caret line="296" column="4" lean-forward="false" selection-start-line="296" selection-start-column="4" selection-end-line="296" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1308,74 +659,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/notifications/notifications.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="50" lean-forward="true" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="64" column="111" lean-forward="true" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="111" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/notifications/notifications.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="180">
+          <caret line="12" column="57" lean-forward="false" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/models/calendar.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
+        <state relative-caret-position="132">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/sidebar/sidebar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-345">
-          <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        <state relative-caret-position="270">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/metadata/lifecycle_hooks.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/assets/css/themify-icons.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="49" column="4" lean-forward="false" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+        <state relative-caret-position="181">
+          <caret line="109" column="1" lean-forward="false" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1384,16 +703,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="37" column="44" lean-forward="false" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
           <folding>
-            <element signature="e#0#73#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/models/bookingslot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="34" lean-forward="false" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/bookingslot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/booking.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/calendar.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/models/bookingslot.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1406,30 +765,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/add-calendar/add-calendar.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="41" column="15" lean-forward="false" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        <state relative-caret-position="207">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="45" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protractor.conf.js">
+    <entry file="file://$PROJECT_DIR$/src/app/calendars/calendars.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/app/edit-calendar/edit-calendar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="387">
+          <caret line="36" column="31" lean-forward="false" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
           <folding />
         </state>
       </provider>

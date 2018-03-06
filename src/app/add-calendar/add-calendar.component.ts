@@ -4,6 +4,7 @@ import {AngularFireAuth} from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
 import {Observable} from 'rxjs/Observable';
 import {CalendarModel} from '../models/calendar';
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-add-calendar',
@@ -20,7 +21,7 @@ export class AddCalendarComponent implements OnInit {
     public calendarCollectionRef: AngularFirestoreCollection<CalendarModel>;
     public calendars$: Observable<{}[]>;
 
-    constructor(public afAuth: AngularFireAuth, afs: AngularFirestore) {
+    constructor(public afAuth: AngularFireAuth, afs: AngularFirestore, private router: Router) {
         this.afAuth.auth.signInAnonymously();
         this.user = this.afAuth.authState;
 
@@ -33,13 +34,8 @@ export class AddCalendarComponent implements OnInit {
     }
 
     public addCalendar(calendarModel: CalendarModel): void {
-        this.calendarCollectionRef.add(calendarModel)
-            .then(function(docRef) {
-                console.log('Document written with ID: ', docRef.id);
-            })
-            .catch(function(error) {
-                console.error('Error adding document: ', error);
-            });
+        this.calendarCollectionRef.add(calendarModel);
+        this.router.navigate(['calendars']);
     }
 
   ngOnInit() {

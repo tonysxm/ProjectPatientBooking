@@ -10,7 +10,6 @@
           <table class="table table-striped">
             <thead>
             <tr>
-              <th>Id</th>
               <th>Name</th>
               <th>Location</th>
               <th>Date created</th>
@@ -19,11 +18,13 @@
             </thead>
             <tbody>
             <tr *ngFor="let calendar of calendars$ | async">
-              <td>{{calendar.id}}</td>
               <td>{{calendar.name}}</td>
               <td>{{calendar.location}}</td>
               <td>{{calendar.dateCreated | date:'dd-MM-yyyy'}}</td>
-              <td><button class="btn btn-block btn-success">Edit</button></td>
+              <td>
+                <button (click)="editCalander(calendar.id)" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="deleteCalendar(calendar.id)" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
             </tr>
             </tbody>
           </table>

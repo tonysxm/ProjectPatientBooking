@@ -27,6 +27,7 @@ import {FIRE_BASE_CREDENTIALS} from './firebase.credentials';
 import {AngularFireAuth} from 'angularfire2/auth';
 import {AddCalendarComponent} from './add-calendar/add-calendar.component';
 import {FormsModule} from "@angular/forms";
+import { EditCalendarComponent } from './edit-calendar/edit-calendar.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import {FormsModule} from "@angular/forms";
     BookingsComponent,
     SettingsComponent,
     AddCalendarComponent,
+    EditCalendarComponent,
   ],
   imports: [
     BrowserModule,
