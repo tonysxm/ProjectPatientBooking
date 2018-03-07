@@ -136,7 +136,7 @@
                             <mwl-calendar-week-view
                                     *ngSwitchCase="'week'"
                                     [viewDate]="viewDate"
-                                    [events]="events"
+                                    [events]="bookingSlotsRef"
                                     [refresh]="refresh"
                                     (eventClicked)="handleEvent('Clicked', $event.event)"
                                     (eventTimesChanged)="eventTimesChanged($event)">
@@ -144,7 +144,7 @@
                             <mwl-calendar-day-view
                                     *ngSwitchCase="'day'"
                                     [viewDate]="viewDate"
-                                    [events]="events"
+                                    [events]="bookingSlotsRef"
                                     [refresh]="refresh"
                                     (eventClicked)="handleEvent('Clicked', $event.event)"
                                     (eventTimesChanged)="eventTimesChanged($event)">
