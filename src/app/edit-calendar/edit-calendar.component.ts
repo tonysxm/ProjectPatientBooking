@@ -16,7 +16,7 @@ import {
     isSameMonth,
     addHours
 } from 'date-fns';
-import {Subject} from "rxjs/Subject";
+import {Subject} from 'rxjs/Subject';
 
 declare var $: any;
 
@@ -50,6 +50,8 @@ export class EditCalendarComponent implements OnInit {
     public id;
     public calendarModelRef: AngularFirestoreDocument<CalendarModel>;
     public calendarModel$: Observable<CalendarModel>;
+    public bookingSlotsRef: AngularFirestoreCollection<{}>;
+    public bookingSlotsRef$: Observable<{}>;
     user: Observable<firebase.User>;
     activeDayIsOpen = true;
     public view = 'month';
@@ -87,13 +89,20 @@ export class EditCalendarComponent implements OnInit {
         meta : {
             therapy: ''
         }
-    }
-
+    };
     therapies: any[] = [
         { id: 1, name: 'Thereapy A'},
         { id: 2, name: 'Thereapy B'}
     ];
     selectedTherapy: any = this.therapies[0]; // first will be selected by default by browser
+
+    constructor(route: ActivatedRoute, private afs: AngularFirestore, private router: Router) {
+        this.id = route.snapshot.paramMap.get('id');
+        this.calendarModelRef = afs.doc('calendars/' + this.id);
+        this.calendarModel$ = this.calendarModelRef.valueChanges();
+        this.bookingSlotsRef = afs.collection('bookings/' + this.id + '/bookingSlots');
+        this.bookingSlotsRef$ = this.bookingSlotsRef.valueChanges();
+    }
 
     setTherapy(id: any): void {
         this.selectedTherapy = this.therapies.filter(value => value.id === parseInt(id));
@@ -119,12 +128,6 @@ export class EditCalendarComponent implements OnInit {
         }
     }
 
-  constructor(route: ActivatedRoute, private afs: AngularFirestore, private router: Router) {
-      this.id = route.snapshot.paramMap.get('id');
-      this.calendarModelRef = this.afs.doc('calendars/' + this.id);
-      this.calendarModel$ = this.calendarModelRef.valueChanges();
-  }
-
     updateCalendar(calendarModel: CalendarModel) {
         this.afs.doc('calendars/' + this.id).update(calendarModel);
         this.showNotification('Calendar was updated', 'success' , 'top', 'center');
@@ -137,22 +140,31 @@ export class EditCalendarComponent implements OnInit {
         this.refresh.next();
     }
 
+    public addCalendar(calendarModel: CalendarModel): void {
+        this.router.navigate(['calendars']);
+    }
+
     addEvent(): void {
-        this.events.push({
+        const start = new Date(this.event.start);
+        const end = new Date(this.event.end);
+        const item = {
             title: this.event.meta.therapy,
-            start: new Date(this.event.start),
-            end: new Date(this.event.end),
+            start: start,
+            end: end,
             color: colors.green,
-            actions: this.actions,
+            // actions: this.actions,
             draggable: false,
             resizable: {
                 beforeStart: false,
                 afterEnd: false
             },
             meta: {
-                therapy: this.selectedTherapy
+                therapy: this.event.meta.therapy
             }
-        });
+        };
+        this.events.push(item);
+        this.bookingSlotsRef.add(item);
+        console.log(this.bookingSlotsRef$);
         this.refresh.next();
     }
 

@@ -121,12 +121,12 @@
                                 </div>
                             </div>
                         </div>
-                        <br>
-                        <div [ngSwitch]="view">
+                        <br />
+                        <div *ngIf="bookingSlotsRef$ | async as bookingSlotsRef" [ngSwitch]="view">
                             <mwl-calendar-month-view
                                     *ngSwitchCase="'month'"
                                     [viewDate]="viewDate"
-                                    [events]="events"
+                                    [events]="bookingSlotsRef"
                                     [refresh]="refresh"
                                     [activeDayIsOpen]="activeDayIsOpen"
                                     (dayClicked)="dayClicked($event.day)"
