@@ -16,6 +16,7 @@ import {
     isSameMonth,
     addHours
 } from 'date-fns';
+import {Subject} from "rxjs/Subject";
 
 declare var $: any;
 
@@ -31,6 +32,10 @@ const colors: any = {
     yellow: {
         primary: '#e3bc08',
         secondary: '#FDF1BA'
+    },
+    green: {
+        primary: '#00FF00',
+        secondary: '#00FF00'
     }
 };
 
@@ -46,21 +51,16 @@ export class EditCalendarComponent implements OnInit {
     public calendarModelRef: AngularFirestoreDocument<CalendarModel>;
     public calendarModel$: Observable<CalendarModel>;
     user: Observable<firebase.User>;
-    public event = {
-        start: addHours(startOfDay(new Date()), 1),
-        end: addHours(startOfDay(new Date()), 2),
-        title: 'A 3 day event',
-        color: colors.red,
-        // actions: this.actions,
-        meta : {
-            id: 'test'
-        }
-    }
-
     activeDayIsOpen = true;
     public view = 'month';
     viewDate: Date = new Date();
-
+    refresh: Subject<any> = new Subject();
+    settings = {
+        bigBanner: true,
+        timePicker: true,
+        format: 'dd-MM-yyyy hh:mm',
+        defaultOpen: false
+    };
     actions: CalendarEventAction[] = [
         {
             label: '<i class="fa fa-fw fa-pencil"></i>',
@@ -76,46 +76,28 @@ export class EditCalendarComponent implements OnInit {
             }
         }
     ];
-
-    events: CalendarEvent[] = [
-        {
-            start: addHours(startOfDay(new Date()), 1),
-            end: addHours(startOfDay(new Date()), 2),
-            title: 'A 3 day event',
-            color: colors.red,
-            actions: this.actions,
-            meta : {
-                id: 'test'
-            }
-        },
-        {
-            start: addHours(startOfDay(new Date()), 2),
-            end: addHours(startOfDay(new Date()), 3),
-            title: 'An event with no end date',
-            color: colors.yellow,
-            actions: this.actions
-        },
-        {
-            start: addHours(startOfDay(new Date()), 3),
-            end: addHours(startOfDay(new Date()), 4),
-            title: 'A long event that spans 2 months',
-            color: colors.blue
-        },
-        {
-            start: addHours(startOfDay(new Date()), 5),
-            end: addHours(startOfDay(new Date()), 6),
-            title: 'A draggable and resizable event',
-            color: colors.yellow,
-            actions: this.actions,
-            resizable: {
-                beforeStart: true,
-                afterEnd: true
-            },
-            draggable: false
-        }
-    ];
-
+    events: CalendarEvent[] = [];
     clickedDate: Date;
+    public event = {
+        start: new Date(),
+        end: new Date(),
+        title: '',
+        color: '',
+        actions: this.actions,
+        meta : {
+            therapy: ''
+        }
+    }
+
+    therapies: any[] = [
+        { id: 1, name: 'Thereapy A'},
+        { id: 2, name: 'Thereapy B'}
+    ];
+    selectedTherapy: any = this.therapies[0]; // first will be selected by default by browser
+
+    setTherapy(id: any): void {
+        this.selectedTherapy = this.therapies.filter(value => value.id === parseInt(id));
+    }
 
     handleEvent(action: string, event: CalendarEvent): void {
         // this.modalData = { event, action };
@@ -148,8 +130,30 @@ export class EditCalendarComponent implements OnInit {
         this.showNotification('Calendar was updated', 'success' , 'top', 'center');
     }
 
-    goToBooking() {
-        this.router.navigate(['edit-booking']);
+    eventTimesChanged({event, newStart, newEnd}: CalendarEventTimesChangedEvent): void {
+        event.start = newStart;
+        event.end = newEnd;
+        this.handleEvent('Dropped or resized', event);
+        this.refresh.next();
+    }
+
+    addEvent(): void {
+        this.events.push({
+            title: this.event.meta.therapy,
+            start: new Date(this.event.start),
+            end: new Date(this.event.end),
+            color: colors.green,
+            actions: this.actions,
+            draggable: false,
+            resizable: {
+                beforeStart: false,
+                afterEnd: false
+            },
+            meta: {
+                therapy: this.selectedTherapy
+            }
+        });
+        this.refresh.next();
     }
 
     showNotification(message: string, type: string, from, align) {

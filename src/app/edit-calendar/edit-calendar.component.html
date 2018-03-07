@@ -41,54 +41,49 @@
                     <h4 class="title">Booking</h4>
                 </div>
                 <div class="content">
-                    <div class="alert alert-info">
-                        Click on a day on the view.
-                        <strong *ngIf="clickedDate">You clicked on this day: {{ clickedDate | date:'medium' }}</strong>
-                    </div>
-                    <div class="content">
+                    <!--<div class="alert alert-info">-->
+                        <!--Click on a day on the view.-->
+                        <!--<strong *ngIf="clickedDate">You clicked on this day: {{ clickedDate | date:'medium' }}</strong>-->
+                    <!--</div>-->
+                    <div class="content card">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-4">
                                 <div class="form-group">
-                                    <label>Start date</label>
-                                    <input type="text" [(ngModel)]="event.start" required="required"
-                                           class="form-control border-input" value="">
+                                    <label>Therapy</label>
+                                    <select style="height: 30px;" class="btn-block" [(ngModel)]="event.meta.therapy" #selectElem (change)="setTherapy(selectElem.value)">
+                                        <option *ngFor="let therapy of therapies" [value]="therapy.name">
+                                            {{therapy.name}}
+                                        </option>
+                                    </select>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <label>Start date</label>
+                                    <angular2-date-picker [(ngModel)]="event.start"
+                                                          [settings]="settings"
+                                                          required="required">
+                                    </angular2-date-picker>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
                                 <div class="form-group">
                                     <label>End date</label>
-                                    <input type="text" [(ngModel)]="event.end" required="required"
-                                           class="form-control border-input" value="">
+                                    <angular2-date-picker [(ngModel)]="event.end"
+                                                          [settings]="settings"
+                                                          required="required">
+                                    </angular2-date-picker>
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Start date</label>
-                                    <input type="text" [(ngModel)]="event.meta.id" required="required"
-                                           class="form-control border-input" value="">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>End date</label>
-                                    <input type="text" [(ngModel)]="event.end" required="required"
-                                           class="form-control border-input" value="">
-                                </div>
-                            </div>
-                        </div>
-
-
+                        <br/>
                         <div class="text-center">
-                            <button (click)="updateCalendar(calendarModel)" class="btn btn-info btn-fill btn-wd">Add
-                                Calendar
+                            <button (click)="addEvent()" class="btn btn-info btn-fill btn-wd">Add
+                                booking slot
                             </button>
                         </div>
                         <div class="clearfix"></div>
                     </div>
-
-
                         <div class="row text-center">
                             <div class="col-md-4">
                                 <div class="btn-group">
