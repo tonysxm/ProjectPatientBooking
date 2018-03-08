@@ -17,6 +17,7 @@ import {
     addHours
 } from 'date-fns';
 import {Subject} from 'rxjs/Subject';
+import {BookingSlot} from "../models/bookingslot";
 
 declare var $: any;
 
@@ -101,7 +102,13 @@ export class EditCalendarComponent implements OnInit {
         this.calendarModelRef = afs.doc('calendars/' + this.id);
         this.calendarModel$ = this.calendarModelRef.valueChanges();
         this.bookingSlotsRef = afs.collection('bookings/' + this.id + '/bookingSlots');
-        this.bookingSlotsRef$ = this.bookingSlotsRef.valueChanges();
+        this.bookingSlotsRef$ = this.bookingSlotsRef.snapshotChanges().map(actions => {
+            return actions.map(action => {
+                const data = action.payload.doc.data() as BookingSlot;
+                const id = action.payload.doc.id;
+                return { id, ...data };
+            });
+        });
     }
 
     setTherapy(id: any): void {
@@ -111,6 +118,11 @@ export class EditCalendarComponent implements OnInit {
     handleEvent(action: string, event: CalendarEvent): void {
         // this.modalData = { event, action };
         // this.modal.open(this.modalContent, { size: 'lg' });
+        console.log('Event clicked', event);
+    }
+
+    eventClicked({ event }: { event: CalendarEvent }): void {
+        console.log('Event clicked', event);
     }
 
     dayClicked({ date, events }: { date: Date; events: CalendarEvent[] }): void {
@@ -159,7 +171,11 @@ export class EditCalendarComponent implements OnInit {
                 afterEnd: false
             },
             meta: {
-                therapy: this.event.meta.therapy
+                therapy: this.event.meta.therapy,
+                isAvailable: true,
+                isBooked: false,
+                isAccepted: false,
+                isCompleted: false
             }
         };
         this.events.push(item);
