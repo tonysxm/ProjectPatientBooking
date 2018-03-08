@@ -12,8 +12,7 @@ import {CalendarsComponent} from './calendars/calendars.component';
 import {BookingsComponent} from './bookings/bookings.component';
 import {SettingsComponent} from './settings/settings.component';
 import {AddCalendarComponent} from './add-calendar/add-calendar.component';
-import {EditCalendarComponent} from "./edit-calendar/edit-calendar.component";
-import {EditBookingComponent} from "./edit-booking/edit-booking.component";
+import {EditCalendarComponent} from './edit-calendar/edit-calendar.component';
 
 export const AppRoutes: Routes = [
     {
@@ -68,10 +67,6 @@ export const AppRoutes: Routes = [
     {
         path: 'bookings',
         component: BookingsComponent
-    },
-    {
-        path: 'edit-booking',
-        component: EditBookingComponent
     },
     {
         path: 'settings',

@@ -159,12 +159,12 @@ export class EditCalendarComponent implements OnInit {
     addEvent(): void {
         const start = new Date(this.event.start);
         const end = new Date(this.event.end);
-        const item = {
+        const bookingSlot = {
             title: this.event.meta.therapy,
             start: start,
             end: end,
             color: colors.green,
-            // actions: this.actions,
+            actions: null,
             draggable: false,
             resizable: {
                 beforeStart: false,
@@ -178,8 +178,8 @@ export class EditCalendarComponent implements OnInit {
                 isCompleted: false
             }
         };
-        this.events.push(item);
-        this.bookingSlotsRef.add(item);
+        this.events.push(bookingSlot);
+        this.bookingSlotsRef.add(bookingSlot);
         console.log(this.bookingSlotsRef$);
         this.refresh.next();
     }

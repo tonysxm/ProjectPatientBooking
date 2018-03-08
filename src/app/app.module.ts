@@ -30,7 +30,6 @@ import {FormsModule} from "@angular/forms";
 import {EditCalendarComponent} from './edit-calendar/edit-calendar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CalendarModule} from 'angular-calendar';
-import { EditBookingComponent } from './edit-booking/edit-booking.component';
 import {AngularDateTimePickerModule} from "angular2-datetimepicker";
 
 @NgModule({
@@ -48,8 +47,7 @@ import {AngularDateTimePickerModule} from "angular2-datetimepicker";
         BookingsComponent,
         SettingsComponent,
         AddCalendarComponent,
-        EditCalendarComponent,
-        EditBookingComponent,
+        EditCalendarComponent
     ],
     imports: [
         BrowserModule,
