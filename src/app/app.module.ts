@@ -31,6 +31,8 @@ import {EditCalendarComponent} from './edit-calendar/edit-calendar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CalendarModule} from 'angular-calendar';
 import {AngularDateTimePickerModule} from "angular2-datetimepicker";
+import { EditBookingSlotComponent } from './edit-booking-slot/edit-booking-slot.component';
+import {NotificationService} from "./service/notification/notification.service";
 
 @NgModule({
     declarations: [
@@ -47,7 +49,8 @@ import {AngularDateTimePickerModule} from "angular2-datetimepicker";
         BookingsComponent,
         SettingsComponent,
         AddCalendarComponent,
-        EditCalendarComponent
+        EditCalendarComponent,
+        EditBookingSlotComponent
     ],
     imports: [
         BrowserModule,
@@ -63,7 +66,7 @@ import {AngularDateTimePickerModule} from "angular2-datetimepicker";
         CalendarModule.forRoot(),
         AngularDateTimePickerModule
     ],
-    providers: [AuthService, AngularFireAuth],
+    providers: [AuthService, AngularFireAuth, NotificationService],
     bootstrap: [AppComponent]
 })
 export class AppModule {

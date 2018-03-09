@@ -91,11 +91,12 @@ export class EditCalendarComponent implements OnInit {
             therapy: ''
         }
     };
+    // Turn this into a service
     therapies: any[] = [
         { id: 1, name: 'Thereapy A'},
         { id: 2, name: 'Thereapy B'}
     ];
-    selectedTherapy: any = this.therapies[0]; // first will be selected by default by browser
+    selectedTherapy: any = this.therapies[0];
 
     constructor(route: ActivatedRoute, private afs: AngularFirestore, private router: Router) {
         this.id = route.snapshot.paramMap.get('id');
@@ -122,6 +123,7 @@ export class EditCalendarComponent implements OnInit {
     }
 
     eventClicked({ event }: { event: CalendarEvent }): void {
+        this.goToEditBookingSlot(event['id'])
         console.log('Event clicked', event);
     }
 
@@ -152,10 +154,6 @@ export class EditCalendarComponent implements OnInit {
         this.refresh.next();
     }
 
-    public addCalendar(calendarModel: CalendarModel): void {
-        this.router.navigate(['calendars']);
-    }
-
     addEvent(): void {
         const start = new Date(this.event.start);
         const end = new Date(this.event.end);
@@ -182,6 +180,10 @@ export class EditCalendarComponent implements OnInit {
         this.bookingSlotsRef.add(bookingSlot);
         console.log(this.bookingSlotsRef$);
         this.refresh.next();
+    }
+
+    goToEditBookingSlot(bookingSlotId: number) {
+        this.router.navigate(['edit-booking-slot', { calendarId: this.id, bookingSlotId: bookingSlotId}]);
     }
 
     showNotification(message: string, type: string, from, align) {

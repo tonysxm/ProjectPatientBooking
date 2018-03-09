@@ -25,7 +25,7 @@ export class CalendarsComponent implements OnInit {
         this.afAuth.auth.signInAnonymously();
         this.user = this.afAuth.authState;
         this.calendarCollectionRef = afs.collection<CalendarModel>('calendars');
-        this.calendars$ = afs.collection('calendars').snapshotChanges().map(actions => {
+        this.calendars$ = this.calendarCollectionRef.snapshotChanges().map(actions => {
             return actions.map(action => {
                 const data = action.payload.doc.data() as CalendarModel;
                 const id = action.payload.doc.id;
