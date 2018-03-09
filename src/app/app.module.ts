@@ -26,13 +26,13 @@ import {AngularFirestoreModule} from 'angularfire2/firestore';
 import {FIRE_BASE_CREDENTIALS} from './firebase.credentials';
 import {AngularFireAuth} from 'angularfire2/auth';
 import {AddCalendarComponent} from './add-calendar/add-calendar.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule} from '@angular/forms';
 import {EditCalendarComponent} from './edit-calendar/edit-calendar.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {CalendarModule} from 'angular-calendar';
-import {AngularDateTimePickerModule} from "angular2-datetimepicker";
+import {AngularDateTimePickerModule} from 'angular2-datetimepicker/datepicker.module';
 import { EditBookingSlotComponent } from './edit-booking-slot/edit-booking-slot.component';
-import {NotificationService} from "./service/notification/notification.service";
+import {NotificationService} from './service/notification/notification.service';
 
 @NgModule({
     declarations: [
