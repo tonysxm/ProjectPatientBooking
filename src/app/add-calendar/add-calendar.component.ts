@@ -4,7 +4,7 @@ import {AngularFireAuth} from 'angularfire2/auth';
 import * as firebase from 'firebase/app';
 import {Observable} from 'rxjs/Observable';
 import {CalendarModel} from '../models/calendar';
-import {Router} from "@angular/router";
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-add-calendar',
@@ -15,7 +15,9 @@ export class AddCalendarComponent implements OnInit {
     public calendarModel: CalendarModel = {
         name: '',
         location: '',
-        dateCreated: this.getTimestamp()
+        dateCreated: this.getTimestamp(),
+        isArchived: false,
+        isVisible: true
     };
     user: Observable<firebase.User>;
     public calendarCollectionRef: AngularFirestoreCollection<CalendarModel>;
@@ -25,6 +27,9 @@ export class AddCalendarComponent implements OnInit {
         this.afAuth.auth.signInAnonymously();
         this.user = this.afAuth.authState;
 
+        // this.calendarCollectionRef = afs.collection<CalendarModel>('calendars'
+        //     , ref => ref.where('isArchived', '==', 'false')
+        //                          .where('isVisible', '==', 'true'));
         this.calendarCollectionRef = afs.collection<CalendarModel>('calendars');
         this.calendars$ = this.calendarCollectionRef.valueChanges();
     }

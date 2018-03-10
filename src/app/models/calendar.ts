@@ -3,4 +3,6 @@ export class CalendarModel {
     name: string;
     location: string;
     dateCreated: any;
+    isArchived: boolean;
+    isVisible: boolean;
 }

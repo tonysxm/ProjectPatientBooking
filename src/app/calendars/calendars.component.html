@@ -13,6 +13,8 @@
               <th>Name</th>
               <th>Location</th>
               <th>Date created</th>
+              <th>Visible</th>
+              <th>Archived</th>
               <th></th>
             </tr>
             </thead>
@@ -21,6 +23,8 @@
               <td>{{calendar.name}}</td>
               <td>{{calendar.location}}</td>
               <td>{{calendar.dateCreated | date:'dd-MM-yyyy'}}</td>
+              <td><input disabled readonly type="checkbox" class="big-checkbox" [checked]="calendar.isVisible"></td>
+              <td><input disabled readonly type="checkbox" class="big-checkbox" [checked]="calendar.isArchived"></td>
               <td>
                 <button (click)="editCalander(calendar.id)" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
                 <button (click)="deleteCalendar(calendar.id)" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
