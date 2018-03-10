@@ -1,3 +1,90 @@
-<p>
-  bookings works!
-</p>
+<!--<div *ngFor="let booking of bookingsref$ | async">-->
+  <!--<p>{{booking.name}}</p>-->
+  <!--&lt;!&ndash;<p *ngFor="let bookingSlot of booking.bookingSlots | async">&ndash;&gt;-->
+    <!--&lt;!&ndash;{{bookingSlot.title}}&ndash;&gt;-->
+  <!--&lt;!&ndash;</p>&ndash;&gt;-->
+<!--</div>-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th>Booking</th>
+              <th>Treatment</th>
+              <th>Location</th>
+              <th>Date/Time Slot</th>
+              <th>Booked</th>
+              <th>Booked by</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>1234</td>
+              <td>Therapy A</td>
+              <td>Simpsonbay</td>
+              <td>03-05-2018 09:30</td>
+              <td>Yes</td>
+              <td>Mr. A. Pompier</td>
+              <td>
+                <button (click)="editBooking()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="editBooking()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1234</td>
+              <td>Therapy B</td>
+              <td>Philipsburg</td>
+              <td>03-06-2018 09:30</td>
+              <td>Yes</td>
+              <td>Mr. P. Jack</td>
+              <td>
+                <button (click)="editBooking()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="editBooking()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1234</td>
+              <td>Therapy C</td>
+              <td>Simpsonbay</td>
+              <td>03-07-2018 10:30</td>
+              <td>Yes</td>
+              <td>Mr. L. Adams</td>
+              <td>
+                <button (click)="editBooking()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="editBooking()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1234</td>
+              <td>Therapy A</td>
+              <td>Simpsonbay</td>
+              <td>12-05-2018 11:30</td>
+              <td>Yes</td>
+              <td>Ms. J. Doe</td>
+              <td>
+                <button (click)="editBooking()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="editBooking()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
+            </tr>
+            <tr>
+              <td>1234</td>
+              <td>Therapy A</td>
+              <td>Simpsonbay</td>
+              <td>12-05-2018 11:30</td>
+              <td>No</td>
+              <td> ---- </td>
+              <td>
+                <button (click)="editBooking()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="editBooking()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Delete</button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
