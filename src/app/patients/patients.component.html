@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="card">
+        <div class="content table-responsive table-full-width">
+          <table class="table table-striped">
+            <thead>
+            <tr>
+              <th>PatientID</th>
+              <th>Firstname</th>
+              <th>Lastname</th>
+              <th>Open bookings</th>
+              <th>Completed bookings</th>
+              <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>2</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>3</td>
+              <td>3</td>
+              <td>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Archive</button>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Jane</td>
+              <td>Doe</td>
+              <td>0</td>
+              <td>4</td>
+              <td>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Archive</button>
+              </td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Seth</td>
+              <td>Brenson</td>
+              <td>2</td>
+              <td>0</td>
+              <td>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Archive</button>
+              </td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>Adman</td>
+              <td>Silver</td>
+              <td>0</td>
+              <td>2</td>
+              <td>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-success"><i class="ti-write"></i> Edit</button>
+                <button (click)="goPatientProfile()" class="btn btn-icon btn-danger"><i class="ti-trash"></i>Archive</button>
+              </td>
+            </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>

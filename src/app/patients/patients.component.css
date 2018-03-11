@@ -1,0 +1,12 @@
+.big-checkbox {
+    /* Double-sized Checkboxes */
+    -ms-transform: scale(2); /* IE */
+    -moz-transform: scale(2); /* FF */
+    -webkit-transform: scale(2); /* Safari and Chrome */
+    -o-transform: scale(2); /* Opera */
+    width:10px
+}
+
+td, th {
+    text-align:center;
+}

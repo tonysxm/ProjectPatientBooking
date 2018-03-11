@@ -1291,6 +1291,7 @@ textarea.form-control {
 .table tfoot tr > th,
 .table tfoot tr > td {
   border-top: 1px solid #CCC5B9;
+  border-bottom: 1px solid #CCC5B9;
 }
 .table > thead > tr > th {
   border-bottom-width: 0;

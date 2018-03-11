@@ -14,6 +14,7 @@ import {SettingsComponent} from './settings/settings.component';
 import {AddCalendarComponent} from './add-calendar/add-calendar.component';
 import {EditCalendarComponent} from './edit-calendar/edit-calendar.component';
 import {EditBookingSlotComponent} from "./edit-booking-slot/edit-booking-slot.component";
+import {PatientsComponent} from "./patients/patients.component";
 
 export const AppRoutes: Routes = [
     {
@@ -76,5 +77,9 @@ export const AppRoutes: Routes = [
     {
         path: 'settings',
         component: SettingsComponent
+    },
+    {
+        path: 'patients',
+        component: PatientsComponent
     }
 ];

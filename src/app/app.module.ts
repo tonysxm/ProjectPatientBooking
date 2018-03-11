@@ -33,6 +33,7 @@ import {CalendarModule} from 'angular-calendar';
 import {AngularDateTimePickerModule} from 'angular2-datetimepicker/datepicker.module';
 import { EditBookingSlotComponent } from './edit-booking-slot/edit-booking-slot.component';
 import {NotificationService} from './service/notification/notification.service';
+import { PatientsComponent } from './patients/patients.component';
 
 @NgModule({
     declarations: [
@@ -50,7 +51,8 @@ import {NotificationService} from './service/notification/notification.service';
         SettingsComponent,
         AddCalendarComponent,
         EditCalendarComponent,
-        EditBookingSlotComponent
+        EditBookingSlotComponent,
+        PatientsComponent
     ],
     imports: [
         BrowserModule,
