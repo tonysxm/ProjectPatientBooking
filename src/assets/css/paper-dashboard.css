@@ -2073,7 +2073,7 @@ Copyright (c) 2015 Daniel Eden
 
 .card {
   border-radius: 6px;
-  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  box-shadow: 0 5px 5px rgba(204, 197, 185, 0.8);
   background-color: #FFFFFF;
   color: #252422;
   margin-bottom: 20px;
